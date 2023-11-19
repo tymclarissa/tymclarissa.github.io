@@ -1,8 +1,8 @@
 // gitprofile.config.js
 
-const config = {
+const config = { 
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'tymclarissa', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
@@ -11,18 +11,18 @@ const config = {
     },
   },
   scratch: {
-    username: '', //TODO: Your Scratch username. (Required)
+    username: 'tym_clarissa', //TODO: Your Scratch username. (Required)
     limit: 8, // How many projects to display; maximum 20
     sortBy: 'date', // date | views | remixes
-    corsProxy: "" //TODO: Enter your CORS Proxy here
+    corsProxy: "https://scratchapicors-git-main-clarissas-projects.vercel.app/" //TODO: Enter your CORS Proxy here
   },
   social: { //TODO: Add in Socials
-    linkedin: '',
-    facebook: '',
-    instagram: '',
-    tiktok: '',
-    email: '',
-    website: '',
+    //linkedin: '',
+    //facebook: '',
+    //instagram: '',
+    //tiktok: '',
+    email: 'tym_clarissa@proton.me',
+    // website: BN '',
     // dev: '',
     // twitter: '',
     // mastodon: '',
@@ -48,7 +48,6 @@ const config = {
     'CSS',
     'MakeCode',
     'ScratchJr',
-    'Hopscotch',
     'Robotics',
   ],
   experiences: [
@@ -77,17 +76,11 @@ const config = {
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Caniadian International School',
+      degree: 'grade school',
       from: '2015',
       to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    }
   ],
 
   // TODO: Add external projects
@@ -124,7 +117,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: { //TODO: Change the theme of the website to your liking
-    defaultTheme: 'bumblebee',
+    defaultTheme: 'cupcake',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
